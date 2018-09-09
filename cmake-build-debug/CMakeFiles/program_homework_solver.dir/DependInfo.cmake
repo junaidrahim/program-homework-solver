@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o"
-  "/home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o"
   "/home/junaidrahim/CLionProjects/program-homework-solver/main.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/main.cpp.o"
-  "/home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/poly.cpp.o"
+  "/home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o"
+  "/home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o"
+  "/home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp" "/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir/src/poly.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

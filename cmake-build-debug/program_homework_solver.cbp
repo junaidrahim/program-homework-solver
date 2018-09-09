@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp">
-			<Option target="program_homework_solver"/>
-		</Unit>
-		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp">
-			<Option target="program_homework_solver"/>
-		</Unit>
 		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h">
 			<Option target="program_homework_solver"/>
 		</Unit>
@@ -102,7 +96,13 @@
 		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/main.cpp">
 			<Option target="program_homework_solver"/>
 		</Unit>
-		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp">
+		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp">
+			<Option target="program_homework_solver"/>
+		</Unit>
+		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp">
+			<Option target="program_homework_solver"/>
+		</Unit>
+		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp">
 			<Option target="program_homework_solver"/>
 		</Unit>
 		<Unit filename="/home/junaidrahim/CLionProjects/program-homework-solver/CMakeLists.txt">

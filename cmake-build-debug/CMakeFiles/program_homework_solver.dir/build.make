@@ -81,92 +81,92 @@ CMakeFiles/program_homework_solver.dir/main.cpp.o.provides: CMakeFiles/program_h
 CMakeFiles/program_homework_solver.dir/main.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/main.cpp.o
 
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o: ../BasisPolynomial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o: ../src/BasisPolynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp > CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.i
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp > CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.i
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp -o CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.s
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp -o CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.s
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.requires:
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.requires:
 
-.PHONY : CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.requires
+.PHONY : CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.requires
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.provides: CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.requires
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.provides.build
-.PHONY : CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.provides
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.provides: CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.requires
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.provides.build
+.PHONY : CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.provides
 
-CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o
-
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
-CMakeFiles/program_homework_solver.dir/poly.cpp.o: ../poly.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program_homework_solver.dir/poly.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/poly.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/poly.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp > CMakeFiles/program_homework_solver.dir/poly.cpp.i
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/poly.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp -o CMakeFiles/program_homework_solver.dir/poly.cpp.s
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.o.requires:
-
-.PHONY : CMakeFiles/program_homework_solver.dir/poly.cpp.o.requires
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.o.provides: CMakeFiles/program_homework_solver.dir/poly.cpp.o.requires
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.o.provides.build
-.PHONY : CMakeFiles/program_homework_solver.dir/poly.cpp.o.provides
-
-CMakeFiles/program_homework_solver.dir/poly.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/poly.cpp.o
+CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o
 
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o: ../LagrangePolynomial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.o: ../src/poly.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program_homework_solver.dir/src/poly.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/src/poly.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp > CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.i
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/src/poly.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp > CMakeFiles/program_homework_solver.dir/src/poly.cpp.i
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp -o CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.s
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/src/poly.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp -o CMakeFiles/program_homework_solver.dir/src/poly.cpp.s
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.requires:
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.requires:
 
-.PHONY : CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.requires
+.PHONY : CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.requires
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.provides: CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.requires
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.provides.build
-.PHONY : CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.provides
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.provides: CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.requires
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.provides.build
+.PHONY : CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.provides
 
-CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o
+CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/src/poly.cpp.o
+
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o: CMakeFiles/program_homework_solver.dir/flags.make
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o: ../src/LagrangePolynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o -c /home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp > CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.i
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp -o CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.s
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.requires:
+
+.PHONY : CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.requires
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.provides: CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.requires
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.provides.build
+.PHONY : CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.provides
+
+CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.provides.build: CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o
 
 
 # Object files for target program_homework_solver
 program_homework_solver_OBJECTS = \
 "CMakeFiles/program_homework_solver.dir/main.cpp.o" \
-"CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o" \
-"CMakeFiles/program_homework_solver.dir/poly.cpp.o" \
-"CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o"
+"CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o" \
+"CMakeFiles/program_homework_solver.dir/src/poly.cpp.o" \
+"CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o"
 
 # External object files for target program_homework_solver
 program_homework_solver_EXTERNAL_OBJECTS =
 
 program_homework_solver: CMakeFiles/program_homework_solver.dir/main.cpp.o
-program_homework_solver: CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o
-program_homework_solver: CMakeFiles/program_homework_solver.dir/poly.cpp.o
-program_homework_solver: CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o
+program_homework_solver: CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o
+program_homework_solver: CMakeFiles/program_homework_solver.dir/src/poly.cpp.o
+program_homework_solver: CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o
 program_homework_solver: CMakeFiles/program_homework_solver.dir/build.make
 program_homework_solver: CMakeFiles/program_homework_solver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable program_homework_solver"
@@ -178,9 +178,9 @@ CMakeFiles/program_homework_solver.dir/build: program_homework_solver
 .PHONY : CMakeFiles/program_homework_solver.dir/build
 
 CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/main.cpp.o.requires
-CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o.requires
-CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/poly.cpp.o.requires
-CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o.requires
+CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o.requires
+CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/src/poly.cpp.o.requires
+CMakeFiles/program_homework_solver.dir/requires: CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o.requires
 
 .PHONY : CMakeFiles/program_homework_solver.dir/requires
 

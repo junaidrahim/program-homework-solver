@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/junaidrahim/CLionProjects/program-homework-solver/BasisPolynomial.cpp
-include/BasisPolynomial.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
-include/poly.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
-
-/home/junaidrahim/CLionProjects/program-homework-solver/LagrangePolynomial.cpp
-include/LagrangePolynomial.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/LagrangePolynomial.h
-
 /home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
 vector
 -
@@ -46,7 +36,19 @@ iostream
 include/BasisPolynomial.h
 /home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
 
-/home/junaidrahim/CLionProjects/program-homework-solver/poly.cpp
-include/poly.h
+/home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp
+../include/BasisPolynomial.h
+/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
+../include/poly.h
+/home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
+../include/BasisPolynomial.h
+/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
+
+/home/junaidrahim/CLionProjects/program-homework-solver/src/LagrangePolynomial.cpp
+../include/LagrangePolynomial.h
+/home/junaidrahim/CLionProjects/program-homework-solver/include/LagrangePolynomial.h
+
+/home/junaidrahim/CLionProjects/program-homework-solver/src/poly.cpp
+../include/poly.h
 /home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
 

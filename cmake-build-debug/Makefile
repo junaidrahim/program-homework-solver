@@ -123,60 +123,6 @@ program_homework_solver/fast:
 	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/build
 .PHONY : program_homework_solver/fast
 
-BasisPolynomial.o: BasisPolynomial.cpp.o
-
-.PHONY : BasisPolynomial.o
-
-# target to build an object file
-BasisPolynomial.cpp.o:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o
-.PHONY : BasisPolynomial.cpp.o
-
-BasisPolynomial.i: BasisPolynomial.cpp.i
-
-.PHONY : BasisPolynomial.i
-
-# target to preprocess a source file
-BasisPolynomial.cpp.i:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.i
-.PHONY : BasisPolynomial.cpp.i
-
-BasisPolynomial.s: BasisPolynomial.cpp.s
-
-.PHONY : BasisPolynomial.s
-
-# target to generate assembly for a file
-BasisPolynomial.cpp.s:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.s
-.PHONY : BasisPolynomial.cpp.s
-
-LagrangePolynomial.o: LagrangePolynomial.cpp.o
-
-.PHONY : LagrangePolynomial.o
-
-# target to build an object file
-LagrangePolynomial.cpp.o:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o
-.PHONY : LagrangePolynomial.cpp.o
-
-LagrangePolynomial.i: LagrangePolynomial.cpp.i
-
-.PHONY : LagrangePolynomial.i
-
-# target to preprocess a source file
-LagrangePolynomial.cpp.i:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.i
-.PHONY : LagrangePolynomial.cpp.i
-
-LagrangePolynomial.s: LagrangePolynomial.cpp.s
-
-.PHONY : LagrangePolynomial.s
-
-# target to generate assembly for a file
-LagrangePolynomial.cpp.s:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.s
-.PHONY : LagrangePolynomial.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,32 +150,86 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-poly.o: poly.cpp.o
+src/BasisPolynomial.o: src/BasisPolynomial.cpp.o
 
-.PHONY : poly.o
+.PHONY : src/BasisPolynomial.o
 
 # target to build an object file
-poly.cpp.o:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.o
-.PHONY : poly.cpp.o
+src/BasisPolynomial.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o
+.PHONY : src/BasisPolynomial.cpp.o
 
-poly.i: poly.cpp.i
+src/BasisPolynomial.i: src/BasisPolynomial.cpp.i
 
-.PHONY : poly.i
+.PHONY : src/BasisPolynomial.i
 
 # target to preprocess a source file
-poly.cpp.i:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.i
-.PHONY : poly.cpp.i
+src/BasisPolynomial.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.i
+.PHONY : src/BasisPolynomial.cpp.i
 
-poly.s: poly.cpp.s
+src/BasisPolynomial.s: src/BasisPolynomial.cpp.s
 
-.PHONY : poly.s
+.PHONY : src/BasisPolynomial.s
 
 # target to generate assembly for a file
-poly.cpp.s:
-	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.s
-.PHONY : poly.cpp.s
+src/BasisPolynomial.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.s
+.PHONY : src/BasisPolynomial.cpp.s
+
+src/LagrangePolynomial.o: src/LagrangePolynomial.cpp.o
+
+.PHONY : src/LagrangePolynomial.o
+
+# target to build an object file
+src/LagrangePolynomial.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o
+.PHONY : src/LagrangePolynomial.cpp.o
+
+src/LagrangePolynomial.i: src/LagrangePolynomial.cpp.i
+
+.PHONY : src/LagrangePolynomial.i
+
+# target to preprocess a source file
+src/LagrangePolynomial.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.i
+.PHONY : src/LagrangePolynomial.cpp.i
+
+src/LagrangePolynomial.s: src/LagrangePolynomial.cpp.s
+
+.PHONY : src/LagrangePolynomial.s
+
+# target to generate assembly for a file
+src/LagrangePolynomial.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.s
+.PHONY : src/LagrangePolynomial.cpp.s
+
+src/poly.o: src/poly.cpp.o
+
+.PHONY : src/poly.o
+
+# target to build an object file
+src/poly.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/poly.cpp.o
+.PHONY : src/poly.cpp.o
+
+src/poly.i: src/poly.cpp.i
+
+.PHONY : src/poly.i
+
+# target to preprocess a source file
+src/poly.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/poly.cpp.i
+.PHONY : src/poly.cpp.i
+
+src/poly.s: src/poly.cpp.s
+
+.PHONY : src/poly.s
+
+# target to generate assembly for a file
+src/poly.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/src/poly.cpp.s
+.PHONY : src/poly.cpp.s
 
 # Help Target
 help:
@@ -240,18 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... program_homework_solver"
-	@echo "... BasisPolynomial.o"
-	@echo "... BasisPolynomial.i"
-	@echo "... BasisPolynomial.s"
-	@echo "... LagrangePolynomial.o"
-	@echo "... LagrangePolynomial.i"
-	@echo "... LagrangePolynomial.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... poly.o"
-	@echo "... poly.i"
-	@echo "... poly.s"
+	@echo "... src/BasisPolynomial.o"
+	@echo "... src/BasisPolynomial.i"
+	@echo "... src/BasisPolynomial.s"
+	@echo "... src/LagrangePolynomial.o"
+	@echo "... src/LagrangePolynomial.i"
+	@echo "... src/LagrangePolynomial.s"
+	@echo "... src/poly.o"
+	@echo "... src/poly.i"
+	@echo "... src/poly.s"
 .PHONY : help
 
 

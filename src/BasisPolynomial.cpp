@@ -2,8 +2,9 @@
 // Created by junaidrahim on 9/9/18.
 //
 
-#include "include/BasisPolynomial.h"
-#include "include/poly.h"
+#include "../include/BasisPolynomial.h"
+#include "../include/poly.h"
+#include "../include/BasisPolynomial.h"
 
 BasisPolynomial::BasisPolynomial(vector<int> data) {
     data_points = data;
