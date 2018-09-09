@@ -123,6 +123,60 @@ program_homework_solver/fast:
 	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/build
 .PHONY : program_homework_solver/fast
 
+BasisPolynomial.o: BasisPolynomial.cpp.o
+
+.PHONY : BasisPolynomial.o
+
+# target to build an object file
+BasisPolynomial.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.o
+.PHONY : BasisPolynomial.cpp.o
+
+BasisPolynomial.i: BasisPolynomial.cpp.i
+
+.PHONY : BasisPolynomial.i
+
+# target to preprocess a source file
+BasisPolynomial.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.i
+.PHONY : BasisPolynomial.cpp.i
+
+BasisPolynomial.s: BasisPolynomial.cpp.s
+
+.PHONY : BasisPolynomial.s
+
+# target to generate assembly for a file
+BasisPolynomial.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/BasisPolynomial.cpp.s
+.PHONY : BasisPolynomial.cpp.s
+
+LagrangePolynomial.o: LagrangePolynomial.cpp.o
+
+.PHONY : LagrangePolynomial.o
+
+# target to build an object file
+LagrangePolynomial.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.o
+.PHONY : LagrangePolynomial.cpp.o
+
+LagrangePolynomial.i: LagrangePolynomial.cpp.i
+
+.PHONY : LagrangePolynomial.i
+
+# target to preprocess a source file
+LagrangePolynomial.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.i
+.PHONY : LagrangePolynomial.cpp.i
+
+LagrangePolynomial.s: LagrangePolynomial.cpp.s
+
+.PHONY : LagrangePolynomial.s
+
+# target to generate assembly for a file
+LagrangePolynomial.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/LagrangePolynomial.cpp.s
+.PHONY : LagrangePolynomial.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+poly.o: poly.cpp.o
+
+.PHONY : poly.o
+
+# target to build an object file
+poly.cpp.o:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.o
+.PHONY : poly.cpp.o
+
+poly.i: poly.cpp.i
+
+.PHONY : poly.i
+
+# target to preprocess a source file
+poly.cpp.i:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.i
+.PHONY : poly.cpp.i
+
+poly.s: poly.cpp.s
+
+.PHONY : poly.s
+
+# target to generate assembly for a file
+poly.cpp.s:
+	$(MAKE) -f CMakeFiles/program_homework_solver.dir/build.make CMakeFiles/program_homework_solver.dir/poly.cpp.s
+.PHONY : poly.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... program_homework_solver"
+	@echo "... BasisPolynomial.o"
+	@echo "... BasisPolynomial.i"
+	@echo "... BasisPolynomial.s"
+	@echo "... LagrangePolynomial.o"
+	@echo "... LagrangePolynomial.i"
+	@echo "... LagrangePolynomial.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... poly.o"
+	@echo "... poly.i"
+	@echo "... poly.s"
 .PHONY : help
 
 
