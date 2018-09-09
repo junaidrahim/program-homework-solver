@@ -1,0 +1,3 @@
+/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/junaidrahim/CLionProjects/program-homework-solver/cmake-build-debug/CMakeFiles/program_homework_solver.dir

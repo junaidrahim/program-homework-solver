@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/program_homework_solver.dir/main.cpp.o  -o program_homework_solver 
