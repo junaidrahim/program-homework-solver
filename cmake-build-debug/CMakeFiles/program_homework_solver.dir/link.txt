@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/program_homework_solver.dir/main.cpp.o CMakeFiles/program_homework_solver.dir/src/BasisPolynomial.cpp.o CMakeFiles/program_homework_solver.dir/src/poly.cpp.o CMakeFiles/program_homework_solver.dir/src/LagrangePolynomial.cpp.o  -o program_homework_solver 
