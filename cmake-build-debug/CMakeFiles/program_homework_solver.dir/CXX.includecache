@@ -15,13 +15,7 @@ poly.h
 /home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
 
 /home/junaidrahim/CLionProjects/program-homework-solver/include/LagrangePolynomial.h
-vector
--
-string
--
-poly.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
-BasisPolynomial.h
+../include/BasisPolynomial.h
 /home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
 
 /home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
@@ -33,14 +27,14 @@ string
 /home/junaidrahim/CLionProjects/program-homework-solver/main.cpp
 iostream
 -
-include/BasisPolynomial.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
+vector
+-
+string
+-
+include/LagrangePolynomial.h
+/home/junaidrahim/CLionProjects/program-homework-solver/include/LagrangePolynomial.h
 
 /home/junaidrahim/CLionProjects/program-homework-solver/src/BasisPolynomial.cpp
-../include/BasisPolynomial.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
-../include/poly.h
-/home/junaidrahim/CLionProjects/program-homework-solver/include/poly.h
 ../include/BasisPolynomial.h
 /home/junaidrahim/CLionProjects/program-homework-solver/include/BasisPolynomial.h
 

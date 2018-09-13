@@ -3,15 +3,12 @@
 //
 
 #include "../include/BasisPolynomial.h"
-#include "../include/poly.h"
-#include "../include/BasisPolynomial.h"
 
 BasisPolynomial::BasisPolynomial(vector<int> data) {
     data_points = data;
 }
 
 vector<poly> BasisPolynomial::get_all_basis_polynomials() {
-
     vector<poly> b_polynomials;
 
     for(int j=0; j<data_points.size(); j++){

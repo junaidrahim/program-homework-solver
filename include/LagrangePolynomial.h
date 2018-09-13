@@ -6,18 +6,19 @@
 #define PROGRAM_HOMEWORK_SOLVER_LAGRANGEPOLYNOMIAL_H
 
 
-#include <vector>
-#include <string>
-
-#include "poly.h"
-#include "BasisPolynomial.h"
-
+#include "../include/BasisPolynomial.h"
 using namespace std;
 
 class LagrangePolynomial {
 public:
-    LagrangePolynomial(vector<int> data_points,vector<poly> basis_polynomials);
+    struct element{
+        vector<string> p;
+        int64_t denominator;
+        int multiple;
+    };
 
+    int64_t find_product(vector<int> data);
+    vector<element> get_lagrange_polynomial(vector<int> data_points, vector<poly> basis_polynomial);
 };
 
 
