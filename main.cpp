@@ -2,15 +2,18 @@
 
 #include <vector>
 #include <string>
+#include <fstream>
 
 #include "include/LagrangePolynomial.h"
+#include "include/CodeGenerator.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> data_y = {1,4,9,16,25};
+    vector<int> data_y = {1,2,3,4,5};
     vector<int> data_x;
+
     for(int i=0; i<data_y.size(); i++){
         data_x.push_back(i+1);
     }
@@ -32,7 +35,18 @@ int main() {
     }
 
 
+    CodeGenerator cg(result);
+
+    ofstream outfile;
+    string file = "/home/junaidrahim/Desktop/test/test.c";
+    outfile.open(file);
+    outfile << cg.generate_c_code() << endl;
+    outfile.close();
+
+
+
     return 0;
+
 
 }
 

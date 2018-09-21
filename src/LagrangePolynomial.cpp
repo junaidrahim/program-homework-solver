@@ -6,11 +6,9 @@
 
 int64_t LagrangePolynomial::find_product(vector<int> data) {
     int64_t  result = 1;
-
     for(int i=0; i<data.size(); i++){
         result = result * data[i];
     }
-
     return result;
 }
 
