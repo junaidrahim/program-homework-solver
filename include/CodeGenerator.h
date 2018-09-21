@@ -12,7 +12,7 @@ using namespace std;
 class CodeGenerator {
 private:
     vector<LagrangePolynomial::element> lagrange_polynomial;
-
+    string func;
     string get_polynomial_string();
 
 public:

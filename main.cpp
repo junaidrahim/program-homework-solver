@@ -38,9 +38,9 @@ int main() {
     CodeGenerator cg(result);
 
     ofstream outfile;
-    string file = "/home/junaidrahim/Desktop/test/test.c";
+    string file = "/home/junaidrahim/Desktop/test/test.go";
     outfile.open(file);
-    outfile << cg.generate_c_code() << endl;
+    outfile << cg.generate_go_code() << endl;
     outfile.close();
 
 
