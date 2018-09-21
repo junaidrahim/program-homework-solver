@@ -13,6 +13,4 @@ src/poly.cpp include/poly.h
 src/LagrangePolynomial.cpp
 include/LagrangePolynomial.h
 src/CodeGenerator.cpp
-include/CodeGenerator.h
-
-)
+include/CodeGenerator.h src/test.cpp)
