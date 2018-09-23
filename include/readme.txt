@@ -24,8 +24,8 @@ It is just used as a data type, the operations using this type is given in the B
 ->  The lagrange polynomial is the main function that generates the series
 ->  It is expressed as sum_of(y[i] * basis_polynomial[i])
 ->  A single element of the lagrange polynomial looks like => 5 * ((x-2)(x+3)(x-6)/23)
-->  So a struct element is declared that represents the part
-    inside the summation => {int multiple; vector<string> polynomials; int denominator}
+->  So a struct element is declared that represents the element
+    => {int multiple; vector<string> polynomials; int denominator}
 
 -> And the get_lagrange_polynomials returns a vector<element> that represents the summation
 

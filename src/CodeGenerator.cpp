@@ -4,6 +4,24 @@
 
 #include "../include/CodeGenerator.h"
 
+
+/*
+->  It takes the vector<element> as a constructor input and generates a string compatible
+    with all the programming languages.
+
+ ->  vector<element> looks like { {4, {"x-3","x-4","x-5"} ,3},
+                                 {13, {"x-4","x-2","x-7"}, 4},
+                                 {3, {"x-6","x-1","x-9"}, 7}
+                               }
+
+ ->  The get_polynomial_string() converts that into something like:
+    ((4*(x-3)*(x-4)*(x-5))/3)+((13*(x-4)*(x-2)*(x-7))/4)+((3*(x-6)*(x-1)*(x-9))/7)
+
+->  And then use the boilerplate code and that function to generate the source code in
+    c cpp python js go java
+*/
+
+
 CodeGenerator::CodeGenerator(vector<LagrangePolynomial::element> p) {
     CodeGenerator::lagrange_polynomial = p;
     CodeGenerator::func = get_polynomial_string();
