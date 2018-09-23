@@ -20,7 +20,7 @@ int main(){
 
     BasisPolynomial bp(data_x);
     // What is poly ?
-    // poly => ((x-2)(x-3)/2) => struct {vector<string> numerators,int denominators}
+    // poly => ((x-2)(x-3)/2) => struct {vector<string> numerators,vector<int> denominators}
     vector<poly> basis_polynomials = bp.get_all_basis_polynomials();
 
     LagrangePolynomial lp;
