@@ -16,13 +16,13 @@ int main() {
     cout << "Enter number of terms(n): ";
     cin >> n ;
 
-    if(n==0){
+    if(n==0){ // If the user enters a character, it will still be 0
         cout << "That's Invalid. Please don't mess around :-(" << endl;
         return 0;
     }
 
-    vector<int> data_y;
-    vector<int> data_x;
+    vector<int> data_y; // f(x)
+    vector<int> data_x; // x
 
     printf("Enter the first n terms of the series: ");
     for(int i=0; i<n; i++){
@@ -36,10 +36,10 @@ int main() {
     cout << "Enter destination for source files: ";
     cin >> path;
 
-    BasisPolynomial bp(data_x);
+    BasisPolynomial bp(data_x); // generating basis polynomials
     vector<poly> basis_p = bp.get_all_basis_polynomials();
 
-    LagrangePolynomial lp;
+    LagrangePolynomial lp; // generating the lagrange polynomial
     vector<LagrangePolynomial::element> results = lp.get_lagrange_polynomial(data_y,basis_p);
 
     generate_all_programs(results,path);
