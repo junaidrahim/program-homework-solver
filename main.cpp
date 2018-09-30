@@ -16,7 +16,7 @@ int main() {
     cout << "Enter number of terms(n): ";
     cin >> n ;
 
-    if(n==0){ // If the user enters a character, it will still be 0
+    if(n<=0){ // If the user enters a character, it will still be 0
         cout << "That's Invalid. Please don't mess around :-(" << endl;
         return 0;
     }
