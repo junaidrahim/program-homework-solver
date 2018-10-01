@@ -47,6 +47,14 @@ Use `./program-homework-solver` to run the binary.
     <img src="https://cdn.rawgit.com/junaidrahim/program-homework-solver/51052947/recording.svg">
 </p>
 
+<br>
+
+## LICENSE
+Copyright (c) Junaid Rahim. All rights reserved.
+
+Licensed under the [MIT](LICENSE) License
+
+<br>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
