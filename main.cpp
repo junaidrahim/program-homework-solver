@@ -34,7 +34,8 @@ int main() {
     }
 
     string path;
-    cout << "Enter destination for source files[Present Directory is selected if empty]:";
+    cout << "Enter destination for source files [Current folder if empty]:";
+
     cin.ignore();
     getline(cin,path);
     if (path.empty()){
@@ -42,7 +43,7 @@ int main() {
         getcwd(pwd, 255);
         path = pwd;
     }
-    cout<<"Using path: "<<path;
+    cout << "Using path: " << path << endl;
 
     BasisPolynomial bp(data_x); // generating basis polynomials
     vector<poly> basis_p = bp.get_all_basis_polynomials();
