@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <unistd.h>
 
 #include "include/LagrangePolynomial.h"
 #include "include/CodeGenerator.h"
@@ -33,8 +34,15 @@ int main() {
     }
 
     string path;
-    cout << "Enter destination for source files: ";
-    cin >> path;
+    cout << "Enter destination for source files[Present Directory is selected if empty]:";
+    cin.ignore();
+    getline(cin,path);
+    if (path.empty()){
+        char pwd[256];
+        getcwd(pwd, 255);
+        path = pwd;
+    }
+    cout<<"Using path: "<<path;
 
     BasisPolynomial bp(data_x); // generating basis polynomials
     vector<poly> basis_p = bp.get_all_basis_polynomials();
@@ -55,7 +63,7 @@ void generate_all_programs(vector<LagrangePolynomial::element> &result,string &p
 
     ofstream outfile;
     string file_path = path+"/program_hw.";
-
+    
     cout << "\n" ;
 
     for(int i=0; i<6; i++){
@@ -66,4 +74,5 @@ void generate_all_programs(vector<LagrangePolynomial::element> &result,string &p
         outfile.close();
     }
 }
+
 
