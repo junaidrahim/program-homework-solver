@@ -41,3 +41,9 @@ The binary `program-homework-solver` will be compiled in the directory
 
 Use `./program-homework-solver` to run the binary.
 
+## DEMO
+
+<p>
+    <img src="https://cdn.rawgit.com/junaidrahim/program-homework-solver/51052947/recording.svg">
+</p>
+
