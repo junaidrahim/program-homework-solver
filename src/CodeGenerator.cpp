@@ -35,9 +35,12 @@ string CodeGenerator::get_polynomial_string() {
 //    9 x-1 x-2 2                   this can be used in each language's source
 
     string result;
+    
+    int lagrange_polynomial_size = CodeGenerator::lagrange_polynomial.size();
 
-    for(int i=0; i<lagrange_polynomial.size(); i++){
+    for(int i=0; i<lagrange_polynomial_size; i++){
         string polynomial; //*(x-2)*(x-3)
+
 
         for(int j=0; j<lagrange_polynomial[i].p.size(); j++){
             polynomial += "*(" + lagrange_polynomial[i].p[j] +")";
@@ -50,7 +53,7 @@ string CodeGenerator::get_polynomial_string() {
 
         result += "((" + m + polynomial + ")/" + d + ")";
 
-        if(i!=lagrange_polynomial.size()-1){
+        if(i!=lagrange_polynomial_size-1){
             result += "+";
         }
 

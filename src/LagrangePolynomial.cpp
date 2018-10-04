@@ -18,6 +18,7 @@
 int64_t LagrangePolynomial::find_product(vector<int> data) {
     // returns product of vector<int> data
     int64_t  result = 1;
+
     for(int i=0; i<data.size(); i++){
         result = result * data[i];
     }
@@ -29,7 +30,7 @@ vector<LagrangePolynomial::element> LagrangePolynomial::get_lagrange_polynomial(
 
     for(int i=0; i<data_points.size(); i++){
         element temp;
-
+        
         temp.p = basis_polynomial[i].numerators;
         temp.denominator = find_product(basis_polynomial[i].denominators);
         temp.multiple = data_points[i];

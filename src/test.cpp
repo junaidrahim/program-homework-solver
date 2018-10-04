@@ -7,11 +7,12 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <unistd.h>
 
 #include "../include/LagrangePolynomial.h"
 #include "../include/CodeGenerator.h"
 
-void generate_programs(vector<LagrangePolynomial::element> result);
+void generate_all_programs(vector<LagrangePolynomial::element> &result, string &path);
 
 int main(){
 
@@ -29,32 +30,31 @@ int main(){
     // (4(x-2)(x-3))/2 => struct {int multiple, vector<string> p, int denominator}
     vector<LagrangePolynomial::element> result = lp.get_lagrange_polynomial(data_y,basis_polynomials);
 
-    for(int j=0; j<result.size(); j++){ //prints the lp in the format 4 (x-2)(x-3) 2
-        cout << result[j].multiple << " ";
-        for(int i=0; i<data_x.size()-1; i++){
-            cout << result[j].p[i] << " ";
-        }
-        cout << result[j].denominator << endl;
-    }
-
     // if in doubt, /**/ it out
-    generate_programs(result);
+    string path;
+    char pwd[256];
+    getcwd(pwd, 255);
+    path = pwd;
+
+    generate_all_programs(result,path);
 
     return 0;
 }
 
-void generate_programs(vector<LagrangePolynomial::element> result){
-
+void generate_all_programs(vector<LagrangePolynomial::element> &result,string &path){
     CodeGenerator cg(result);
     CodeGenerator::code_arr all_programs = cg.generate_all_lang_code();
 
     ofstream outfile;
-    string file = "/home/junaidrahim/Desktop/test/test.";
+    string file_path = path+"/program_hw.";
+    
+    cout << "\n" ;
 
     for(int i=0; i<6; i++){
-        outfile.open(file+all_programs.languages[i]);
+        outfile.open(file_path + all_programs.languages[i]);
+        cout << "Writing " << all_programs.languages[i]
+             << " file to " << file_path + all_programs.languages[i] << endl;
         outfile << all_programs.code[i] << endl;
         outfile.close();
     }
-
 }
