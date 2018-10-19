@@ -1,9 +1,28 @@
 # What's in this folder ?
 
-1. poly.h
-2. BasisPolynomial.h
-3. LagrangePolynomial.h
-4. CodeGenerator.h
+The project directory looks like :
+
+```bash
+├── CMakeLists.txt
+├── include
+│   ├── BasisPolynomial.h
+│   ├── CodeGenerator.h
+│   ├── LagrangePolynomial.h
+│   ├── poly.h
+│   └── readme.md
+|── src
+|   ├── BasisPolynomial.cpp
+|   ├── CodeGenerator.cpp
+|   ├── LagrangePolynomial.cpp
+|   ├── poly.cpp
+|   └── test.cpp
+├── LICENSE
+├── main.cpp
+├── README.md
+├── recording.svg
+
+2 directories, 15 files
+```
 
 
 ## poly.h

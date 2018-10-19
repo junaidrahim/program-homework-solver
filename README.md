@@ -1,12 +1,21 @@
 # Program Homework Solver
 
-Ever seen questions of the kind __"Write a program that prints the series 1,3,5,7..."__
+A simple command line application written in C++ that helps you **generate source code to produce a given
+series of integers.** 
 
-Thus thought of writing a program that automates this stuff. 
-A program in which you enter a series of integers and it generates the source code you need to output that series
-in multiple programming languages
+You provide a few terms of the series as input and the program will generate for
+you, the source code in a few programming languages that prints `n` number of terms
+of that particular series.
 
-The mathematical method used was Lagranges Interpolation Method.
+# Motivation
+
+Ever seen questions of the kind __"Write a program that prints till the nth term of the series 1,3,5,7..."__
+
+Thus thought automating this stuff. 
+
+A program in which you enter a series of integers and it generates the source code you need to output that series in multiple programming languages.
+
+The mathematical method used is **Lagranges Interpolation Method**.
 
 
 ## Lagranges Interpolation Method
@@ -25,14 +34,17 @@ of Lagrange basis polynomials
 
 Read more at [Lagrange Interpolation Method (Wikipedia)](https://en.wikipedia.org/wiki/Lagrange_polynomial)
 
-## How to compile and run
+## How to Compile and Run ?
 
-Requirements :
+Requirements : 
 * Cmake
 * make
 * GCC
 
-How to Compile:
+> You can install these using your preferred package manager in Linux
+___
+
+**How to Compile:**
 * cd into the project directory 
 * run `cmake .`
 * then run `make`
@@ -50,7 +62,7 @@ Use `./program-homework-solver` to run the binary.
 <br>
 
 ## LICENSE
-Copyright (c) Junaid Rahim. All rights reserved.
+Copyright (c) **Junaid Rahim**. All rights reserved.
 
 Licensed under the [MIT](LICENSE) License
 
@@ -59,3 +71,4 @@ Licensed under the [MIT](LICENSE) License
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+
