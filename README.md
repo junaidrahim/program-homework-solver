@@ -7,7 +7,7 @@ You provide a few terms of the series as input and the program will generate for
 you, the source code in a few programming languages that prints `n` number of terms
 of that particular series.
 
-# Motivation
+# Motivation :grimacing:
 
 Ever seen questions of the kind __"Write a program that prints till the nth term of the series 1,3,5,7..."__
 
