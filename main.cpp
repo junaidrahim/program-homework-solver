@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -25,10 +24,10 @@ int main() {
     vector<int> data_y; // f(x)
     vector<int> data_x; // x
 
-    printf("Enter the first n terms of the series: ");
+    cout << "Enter the first n terms of the series: ";
     for(int i=0; i<n; i++){
         int k;
-        scanf("%d",&k);
+        cin >> k;
         data_y.push_back(k);
         data_x.push_back(i+1);
     }

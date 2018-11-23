@@ -1,4 +1,4 @@
-# Program Homework Solver
+![HEADER](header.png)
 
 A simple command line application written in C++ that helps you **generate source code to produce a given
 series of integers.** 
@@ -13,7 +13,7 @@ Ever seen questions of the kind __"Write a program that prints till the nth term
 
 Thus thought automating this stuff. 
 
-A program in which you enter a series of integers and it generates the source code you need to output that series in multiple programming languages.
+A program in which you enter any series of integers and hopefully it generates the source code you need to output that series in multiple programming languages.
 
 The mathematical method used is **Lagranges Interpolation Method**.
 
