@@ -7,7 +7,7 @@ You provide a few terms of the series as input and the program will generate for
 you, the source code in a few programming languages that prints `n` number of terms
 of that particular series.
 
-# Motivation :grimacing:
+# Motivation
 
 Ever seen questions of the kind **"Write a program that prints till the nth term of the series 1,3,5,7..."**
 
@@ -21,7 +21,6 @@ The mathematical method used is **Lagranges Interpolation Method**.
 
 Given a set of k + 1 data points
 
-
 ![data points](https://wikimedia.org/api/rest_v1/media/math/render/svg/5e4f064b4751bb32d87cc829aca1b2b2f38d4a6d)
 
 where no two  ![x_j](https://wikimedia.org/api/rest_v1/media/math/render/svg/5db47cb3d2f9496205a17a6856c91c1d3d363ccd) are the same, the interpolation polynomial in the Lagrange form is a linear combination
@@ -33,7 +32,7 @@ of Lagrange basis polynomials
 
 Read more at [Lagrange Interpolation Method (Wikipedia)](https://en.wikipedia.org/wiki/Lagrange_polynomial)
 
-## How to Compile and Run:
+## How to Compile and Run
 
 Requirements : 
     * Cmake
@@ -41,7 +40,6 @@ Requirements :
     * GCC
 
 > You can install these using your preferred package manager in Linux
-
 
 **How to Compile:**
     * cd into the project directory 
@@ -70,4 +68,3 @@ Licensed under the [MIT](LICENSE) License
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
-
