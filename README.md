@@ -1,5 +1,7 @@
 ![HEADER](header.png)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/923f90f779e14dd7938cbd139d015c0a)](https://app.codacy.com/app/JunaidRahim/program-homework-solver?utm_source=github.com&utm_medium=referral&utm_content=junaidrahim/program-homework-solver&utm_campaign=Badge_Grade_Dashboard)
+
 A simple command line application written in C++ that helps you **generate source code to produce a given
 series of integers.** 
 
@@ -65,7 +67,6 @@ Licensed under the [MIT](LICENSE) License
 
 <br>
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/923f90f779e14dd7938cbd139d015c0a)](https://app.codacy.com/app/JunaidRahim/program-homework-solver?utm_source=github.com&utm_medium=referral&utm_content=junaidrahim/program-homework-solver&utm_campaign=Badge_Grade_Dashboard)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
