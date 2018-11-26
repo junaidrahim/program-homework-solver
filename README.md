@@ -9,14 +9,13 @@ of that particular series.
 
 # Motivation :grimacing:
 
-Ever seen questions of the kind __"Write a program that prints till the nth term of the series 1,3,5,7..."__
+Ever seen questions of the kind **"Write a program that prints till the nth term of the series 1,3,5,7..."**
 
 Thus thought automating this stuff. 
 
 A program in which you enter any series of integers and hopefully it generates the source code you need to output that series in multiple programming languages.
 
 The mathematical method used is **Lagranges Interpolation Method**.
-
 
 ## Lagranges Interpolation Method
 
@@ -34,20 +33,20 @@ of Lagrange basis polynomials
 
 Read more at [Lagrange Interpolation Method (Wikipedia)](https://en.wikipedia.org/wiki/Lagrange_polynomial)
 
-## How to Compile and Run ?
+## How to Compile and Run:
 
 Requirements : 
-* Cmake
-* make
-* GCC
+    * Cmake
+    * make
+    * GCC
 
 > You can install these using your preferred package manager in Linux
-___
+
 
 **How to Compile:**
-* cd into the project directory 
-* run `cmake .`
-* then run `make`
+    * cd into the project directory 
+    * run `cmake .`
+    * then run `make`
 
 The binary `program-homework-solver` will be compiled in the directory
 
