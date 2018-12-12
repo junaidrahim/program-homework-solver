@@ -16,7 +16,7 @@ private:
 public:
     struct element{
         int64_t multiple;
-        vector<string> p;
+        vector<string> p; // the polynomials
         int64_t denominator;
     };
 
