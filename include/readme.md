@@ -28,9 +28,9 @@ The project directory looks like :
 ## poly.h
 
 1. For a data set of say 5 tuples, there will be 5 Basis polynomials, each basis polynomial will be a summation of 4 terms
-2.  A basis polynomial looks like => (x-2)/3 + (x-4)/4 + (x-8)/21 + (x-10)/54
+2.  A basis polynomial looks like => (x-2)/3 * (x-4)/4 * (x-8)/21 * (x-10)/54
 3.  "poly" class is used to represent this single polynomial.
-4.  A `vector<string>` holds the numerators => `{"x-2","x-4","x-8","x-10"}` and a `vector<int>` holds the denominators => {3,4,21,54}
+4.  A `vector<string>` holds the numerators => `{"x-2","x-4","x-8","x-10"}` and a `vector<int>` holds the denominators => `{3,4,21,54}`
 
 It is just used as a data type, the operations using this type is given in the ```BasisPolynomial.h```
 
@@ -38,6 +38,9 @@ It is just used as a data type, the operations using this type is given in the `
 ## BasisPolynomial.h
 
 1. what this class does is it takes the x values as input in the constructor and then returns all the basis polynomials in the as a `vector<poly>`
+2. It essentially represents this function as a `vector<poly>`
+![Basis Polynomial](https://wikimedia.org/api/rest_v1/media/math/render/svg/6e2c3a2ab16a8723c0446de6a30da839198fb04b)
+
 
   
 
@@ -49,7 +52,7 @@ It is just used as a data type, the operations using this type is given in the `
 4. So a struct element is declared that represents the element
 
 `{int multiple; vector<string> polynomials; int denominator}`
-5.  And the get_lagrange_polynomials returns a vector<element> that represents the summation
+5.  And the get_lagrange_polynomials returns a `vector<element>` that represents the summation
 
 
 ## CodeGenerator.h

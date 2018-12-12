@@ -17,6 +17,7 @@
 
 int64_t LagrangePolynomial::find_product(vector<int> data) {
     // returns product of vector<int> data
+    // used to find the product of all denominators of the basis polynomial
     int64_t  result = 1;
 
     for(int i=0; i<data.size(); i++){
