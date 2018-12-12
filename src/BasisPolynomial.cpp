@@ -4,6 +4,11 @@
 
 #include "../include/BasisPolynomial.h"
 
+/*
+what this class does is it takes the x values as input in the constructor and then returns all the basis polynomials in the as a `vector<poly>`
+Read more about it in /include/readme.md file
+*/
+
 BasisPolynomial::BasisPolynomial(vector<int> data) { // constructor
     BasisPolynomial::data_points = data;
 }
