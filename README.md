@@ -52,6 +52,9 @@ The binary `program-homework-solver` will be compiled in the directory
 
 Use `./program-homework-solver` to run the binary.
 
+Instructions to run the Unit Tests are [here](tests/readme.md)
+
+
 ## DEMO
 
 <p>
