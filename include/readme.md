@@ -4,24 +4,31 @@ The project directory looks like :
 
 ```bash
 ├── CMakeLists.txt
+├── header.png
 ├── include
-│   ├── BasisPolynomial.h
-│   ├── CodeGenerator.h
-│   ├── LagrangePolynomial.h
-│   ├── poly.h
-│   └── readme.md
-|── src
-|   ├── BasisPolynomial.cpp
-|   ├── CodeGenerator.cpp
-|   ├── LagrangePolynomial.cpp
-|   ├── poly.cpp
-|   └── test.cpp
+│   ├── BasisPolynomial.h
+│   ├── CodeGenerator.h
+│   ├── LagrangePolynomial.h
+│   ├── poly.h
+│   └── readme.md
+├── src
+│   ├── BasisPolynomial.cpp
+│   ├── CodeGenerator.cpp
+│   ├── LagrangePolynomial.cpp
+│   ├── poly.cpp
+│   └── test.cpp
+└── tests
+    ├── CMakeLists.txt
+    ├── readme.md
+    └── src
+        ├── catch.hpp
+        └── test_phs.cpp
 ├── LICENSE
 ├── main.cpp
 ├── README.md
 ├── recording.svg
 
-2 directories, 15 files
+4 directories, 20 files
 ```
 
 
