@@ -1,6 +1,6 @@
 # How to run the Unit Tests ?
 
-The tests are written using [Catch2]()
+The tests are written using [Catch2](https://github.com/catchorg/Catch2)
 
 To run the tests :
 
