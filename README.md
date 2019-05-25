@@ -48,7 +48,7 @@ Requirements :
     * run `cmake .`
     * then run `make`
 
-The binary `program-homework-solver` will be compiled in the directory
+The binary `program-homework-solver` will be compiled in the `bin/` directory
 
 Use `./program-homework-solver` to run the binary.
 
