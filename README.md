@@ -36,17 +36,17 @@ Read more at [Lagrange Interpolation Method (Wikipedia)](https://en.wikipedia.or
 
 ## How to Compile and Run
 
-Requirements : 
-    * Cmake
-    * make
-    * GCC
+Requirements :
+* Cmake
+* make
+* GCC
 
 > You can install these using your preferred package manager in Linux
 
 **How to Compile:**
-    * cd into the project directory 
-    * run `cmake .`
-    * then run `make`
+* cd into the project directory 
+* run `cmake .`
+* then run `make`
 
 The binary `program-homework-solver` will be compiled in the `bin/` directory
 
